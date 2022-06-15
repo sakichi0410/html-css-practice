@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>BTS sample site</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+</head>
+
+<body>
+  <!--ヘッダー-->
+    <img class="top-image" src="./images/main.jpg">
+    <div class="nav-bar">
+      <ul>
+          <li><a href="#">LIVE VIEWING</a></li>
+          <li><a href="#">NEWS</a></li>
+          <li><a href="#">TICKET</a></li>
+          <li><a href="#">THEATER</a></li>
+      </ul>
+    </div>
+  <!----->
+ 
+  <!--ここから下メイン要素--->
+<div class="main">
+  <div class="section">
+    <h2 class="main-title">
+      <span>BTS PERMISSION TO DANCE ON STAGE - SEOUL: LIVE VIEWING</span>
+      <p>※日本語同時翻訳字幕付き</p>
+    </h2>
+    
+      <img  class="date1" src="">
+      <img class="data2" src="">
+      <p>※上映開始時間は変更になる可能性がございます。</p>
+
+
+    <div class="attention">
+      3月10日(木)、12日(土)、13日(日)と3日間にわたり開催される「BTS PERMISSION TO DANCE ON STAGE – SEOUL」の3月12日(土)公演を全国の映画館にてリアルタイムでお楽しみいただける、ライブビューイングを開催いたします。来場者特典として、オリジナルポストカードの配布も決定。
+      BTSの公演を生中継で、そして大迫力のスクリーンにてお楽しみいただけるこの機会をお見逃しなく!
+    </div>
+  </div>
+</div>
+ <!---->
+
+ <!--ムービー-->
+ <div class="wrapper-movie">
+      <div class="section-sub">
+       <h1>MOVIE</h1>
+       <ul class="movies">
+        <li class="movie-data"><iframe width="560" height="315" src="https://www.youtube.com/embed/ziJLUk1vNRw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+        <li class="movie-data"><iframe width="560" height="315" src="https://www.youtube.com/embed/wkXlAoiNsYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+      </ul>
+     </div>
+  </div>
+ <!---->
+
+ <!--ニュース-->
+ <div class="wrapper-news">
+   <div class="section-sub">
+   <h1>NEWS</h1>
+   <ul class="news-list">
+     <li>
+       <a href="#"><span>2022.03.10</span>
+      プレリクエスト販売チケット 追加販売決定のお知らせ</a></li>
+     <li><a href="#"><span>2022.03.08</span>
+      【重要なお知らせ】「ミッドランドスクエア シネマ」(愛知県)にてご観覧予定のお客様へ、チケット券面の施設名誤記載のお知らせ</a></li>
+     <li><a href="#"><span>2022.02.16</span>
+      「PERMISSION TO DANCE ON STAGE-SEOUL」3/12（土）全国劇場でライブビューイング決定!!</a></li>
+   </ul>
+  </div>
+</div>
+ <!---->
+ 
+
+
+ <footer>
+   <div class="section">
+       <ul class="twitter-mark" >
+            <li>
+              <a href="#" class="twitter" ><img id="twitter-btn" src="./images/icon_tw.png">
+              </a>
+            </li>
+          </ul>
+    <div class="conpany">
+
+     
+              <div>主催:HYBE JAPAN 企画:HYBE & BIGHIT MUSIC</div>
+              <div>配給：エイベックス・ピクチャーズ</div>
+              <div>© BIGHIT MUSIC / HYBE. All Rights Reserved.</div>
+    </div>
+  </div>
+ </footer>
+
+</body>
+
+<script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+<script>
+$(function () {
+  $('#twitter-btn').hover (
+    function() {
+      $(this).css('color','red')
+    },
+    function(){
+      $(this).css('color','#fff')
+    }
+  )
+
+  //jqueryが反応しているかの確認コード
+  //$(function(){ // if document is ready
+  //alert('jQuery is ready.')
+  //});
+
+});
+
+</script>
+
+</html>
