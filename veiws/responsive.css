@@ -1,0 +1,14 @@
+/*レスポンシブデザインの適用*/
+
+@media all and(max-width: 1000px) {
+    /*1000px以下で適用したいCSSを記述する*/
+    h1 {
+        color: palevioletred;
+    }
+}
+
+@media all and(max-width: 670px){
+    /*670px以下で適用したいCSSを記述する*/
+
+
+}
